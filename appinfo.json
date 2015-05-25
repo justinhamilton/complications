@@ -1,0 +1,41 @@
+{
+    "appKeys": {
+        "KEY_SHOWSECONDS": 5,
+        "KEY_SLOT1": 1,
+        "KEY_SLOT2": 2,
+        "KEY_SLOT3": 3,
+        "KEY_SLOT4": 4
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "chezlord45@gmail.com",
+    "longName": "Complications",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/pebble-logo.png",
+                "name": "LOGO_IMAGE",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Complications",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "6397275e-c33c-43db-bff8-97071e5a6b37",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
