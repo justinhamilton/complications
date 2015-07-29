@@ -7,3 +7,7 @@ void complications_hands_update(Layer *layer, GContext *ctx);
 
 int slotid[4];
 int mem_slotid[4];
+
+bool bluetooth;
+
+int show_logo;

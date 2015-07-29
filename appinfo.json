@@ -1,10 +1,14 @@
 {
     "appKeys": {
-        "KEY_SHOWSECONDS": 5,
-        "KEY_SLOT1": 1,
-        "KEY_SLOT2": 2,
-        "KEY_SLOT3": 3,
-        "KEY_SLOT4": 4
+        "KEY_BASALTCOLORS": 8,
+        "KEY_SHOWHOURS": 7,
+        "KEY_SHOWLOGO": 5,
+        "KEY_SHOWMINUTES": 6,
+        "KEY_SHOWSECONDS": 4,
+        "KEY_SLOT1": 0,
+        "KEY_SLOT2": 1,
+        "KEY_SLOT3": 2,
+        "KEY_SLOT4": 3
     },
     "capabilities": [
         "configurable"
@@ -14,6 +18,11 @@
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "fonts/pebble-logo-for-watchface.ttf",
+                "name": "LOGO_FONT_15",
+                "type": "font"
+            },
             {
                 "file": "images/menu_icon.png",
                 "menuIcon": true,
